@@ -36,5 +36,13 @@ public class TweetService {
     
     return tweetRepository.findAll(selectedPage).getContent();
   }
+
+  public List<Tweet> getByUsername(String user) {
+    return tweetRepository.findAllByUsername(
+      user,
+      Sort.by(
+        Sort.Direction.DESC, "id"
+      ));
+  }
   
 }

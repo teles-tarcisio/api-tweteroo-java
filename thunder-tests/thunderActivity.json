@@ -41,12 +41,12 @@
     "method": "POST",
     "sortNum": 0,
     "created": "2023-04-08T23:42:36.958Z",
-    "modified": "2023-04-09T17:17:21.439Z",
+    "modified": "2023-04-09T23:02:46.669Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"username\": \"bob1\",\n  \"avatar\": \"https://avatarfiles.alphacoders.com/125/125254.png\",\n  \"text\": \"foi?\"\n}",
+      "raw": "{\n  \"username\": \"bob1\",\n  \"avatar\": \"https://avatarfiles.alphacoders.com/125/125254.png\",\n  \"text\": \"bob!\"\n}",
       "form": []
     },
     "tests": []
@@ -56,19 +56,52 @@
     "colId": "history",
     "containerId": "",
     "name": "get tweets",
-    "url": "http://localhost:8080/api/tweets?page=3",
+    "url": "http://localhost:8080/api/tweets?page=0",
     "method": "GET",
     "sortNum": 0,
     "created": "2023-04-08T23:42:36.958Z",
-    "modified": "2023-04-09T22:22:28.678Z",
+    "modified": "2023-04-09T22:58:50.458Z",
     "headers": [],
     "params": [
       {
         "name": "page",
-        "value": "3",
+        "value": "0",
         "isPath": false
       }
     ],
+    "tests": []
+  },
+  {
+    "_id": "82308ba7-d681-4c3b-9566-2182fee0d61a",
+    "colId": "history",
+    "containerId": "",
+    "name": "get tweets by user",
+    "url": "http://localhost:8080/api/tweets/patrick",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-04-08T23:42:36.958Z",
+    "modified": "2023-04-09T23:03:02.611Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "269922cd-7308-4c88-97df-85b72e272c3e",
+    "colId": "history",
+    "containerId": "",
+    "name": "sign-up patrick",
+    "url": "http://localhost:8080/api/auth/sign-up",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-04-08T23:42:36.958Z",
+    "modified": "2023-04-09T22:59:37.595Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\": \"patrick\",\n  \"avatar\": \"https://avatarfiles.alphacoders.com/319/319252.jpg\"\n}",
+      "form": []
+    },
     "tests": []
   }
 ]

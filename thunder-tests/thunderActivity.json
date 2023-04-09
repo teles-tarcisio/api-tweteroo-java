@@ -36,5 +36,38 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "c9569daa-cf1b-4e9b-b4a9-7c999e53ea6f",
+    "colId": "history",
+    "containerId": "",
+    "name": "new tweet",
+    "url": "http://localhost:8080/api/tweets",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-04-08T23:42:36.958Z",
+    "modified": "2023-04-09T17:17:21.439Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\": \"bob1\",\n  \"avatar\": \"https://avatarfiles.alphacoders.com/125/125254.png\",\n  \"text\": \"foi?\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "d71d9bfe-5f4b-4993-813d-8e867ba7fb7e",
+    "colId": "history",
+    "containerId": "",
+    "name": "get tweets",
+    "url": "http://localhost:8080/api/tweets",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-04-08T23:42:36.958Z",
+    "modified": "2023-04-09T17:17:27.773Z",
+    "headers": [],
+    "params": [],
+    "tests": []
   }
 ]

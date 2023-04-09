@@ -22,7 +22,6 @@ public class Tweet {
   @Column(length = 144, nullable = false)
   private String text;
 
-  // TODO : import from 'MyUser'
   @Column(length = 128, nullable = false)
   private String username;
 

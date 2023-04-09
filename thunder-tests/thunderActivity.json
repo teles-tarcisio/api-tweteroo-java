@@ -1,0 +1,40 @@
+[
+  {
+    "_id": "9e38b8a2-063e-4d79-9d02-238688849448",
+    "colId": "history",
+    "containerId": "",
+    "name": "sign-up",
+    "url": "http://localhost:8080/api/auth/sign-up",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-04-08T23:42:36.958Z",
+    "modified": "2023-04-08T23:44:01.312Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\": \"manolo\",\n  \"avatar\": \"url\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "5a74b67b-a363-4a1d-8cb9-37b90fe61344",
+    "colId": "history",
+    "containerId": "",
+    "name": "getAll",
+    "url": "http://localhost:8080/api/auth/sign-up",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-04-08T23:42:36.958Z",
+    "modified": "2023-04-09T01:00:41.472Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\": \"manolo\",\n  \"avatar\": \"url\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]

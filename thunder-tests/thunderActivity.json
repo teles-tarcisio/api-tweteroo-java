@@ -8,12 +8,12 @@
     "method": "POST",
     "sortNum": 0,
     "created": "2023-04-08T23:42:36.958Z",
-    "modified": "2023-04-08T23:44:01.312Z",
+    "modified": "2023-04-09T16:26:23.515Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"username\": \"manolo\",\n  \"avatar\": \"url\"\n}",
+      "raw": "{\n  \"username\": \"bob1\",\n  \"avatar\": \"https://avatarfiles.alphacoders.com/125/125254.png\"\n}",
       "form": []
     },
     "tests": []

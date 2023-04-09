@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @Data
 @Entity
 @NoArgsConstructor
-public class User {
+public class MyUser {
 
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
@@ -25,7 +25,7 @@ public class User {
   @Column(length = 256, nullable = false)
   private String avatar;
 
-  public User(UserDTO newUser) {
+  public MyUser(UserDTO newUser) {
     this.username = newUser.username();
     this.avatar = newUser.avatar();    
   }
